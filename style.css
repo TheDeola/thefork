@@ -1,0 +1,252 @@
+* {
+    box-sizing:border-box;
+}
+html, body {
+    height: 100%;
+    width: 100%; 
+}
+body {
+    background-color: white;
+    margin: 0 auto;
+    padding: 10px 0;
+    font-family: 'Raleway', sans-serif;
+}
+.header {
+    display: flex;
+    color: rgb(102, 146, 76);
+}
+.header a {
+    color: rgb(102, 146, 76);
+    text-decoration: none;
+    margin-top: 20px;
+}
+.logo {
+    width: 130px;
+    height: 50px;
+}
+.user {
+    margin-top: 20px;
+    margin-left: 85%;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+}
+.split {
+    background-color: rgb(235, 245, 229);
+    padding-left: 20px;
+    border-left: 10px solid rgb(82, 117, 61);
+    padding: 10px 40px;
+    line-height: 5px;
+}
+.giftcards .new {
+    font-weight: bolder;
+}
+.giftbox {
+    width: 70px;
+    margin-left: 60px;
+}
+.discover {
+    padding: 10px;
+    background-color: rgb(102, 146, 76);
+    border-radius: 5px;
+    color: white;
+    border:rgb(102, 146, 76);
+    margin-left: 150px;
+}
+.book {
+    background: url(images/banner.png);
+    width: 100%;
+    height: 500px;
+    background-size: auto;
+    border-top: -50px;
+    border-bottom: -50px;
+    padding-top: 60px;
+}
+.book h2 {
+    font-size:xx-large;
+    font-weight: 900px bolder;
+    margin-left: 120px;
+}
+form {
+    margin-left: 120px;
+    width: 500px;
+    height: 250px;
+    border: 2px solid white;
+    background-color: white;
+    padding: 20px 45px;
+}
+form #what {
+    padding: 10px;
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+form #where {
+    padding: 10px;
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+form .research {
+    padding: 10px;
+    width: 400px;
+    background-color: rgb(102, 146, 76);
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: white;
+    border-radius: 5px;
+}
+.forkfestival {
+    height: 300px;
+    width: 1000px;
+    padding-top: 20px;
+}
+.container {
+    width: 70%;
+    margin: auto; 
+}
+.slide {
+    display: flex; 
+    overflow: auto;
+}
+.slide img {
+    height: 200px;
+}
+.forkselect {
+    margin-right: 50px;
+}
+.containerBox {
+    overflow:hidden;
+}
+.listBox li{
+    padding: 0 1%;
+    list-style: none;
+}
+.listBox {
+    width: 250%;
+    display: flex;
+}
+.next {
+    margin-top: -50px;
+    padding: 10px;
+    color: black;
+    background-color: rgb(102, 146, 76);
+    border-radius: 5px;
+    text-decoration: none; 
+}
+.previous {
+    margin-top: -50px;
+    padding: 10px;
+    color: black;
+    background-color: rgb(102, 146, 76);
+    border-radius: 5px;
+    text-decoration: none; 
+}
+.sections a {
+    color: black;
+}
+.section {
+    display: flex;
+}
+.bestchoice {
+    width: 70px;
+    height: 60px;
+}
+.reviews {
+    width: 150px;
+    height: 60px;
+}
+.exclusive {
+    width: 70px;
+    height: 60px;
+}
+.reservation {
+    width: 70px;
+    height: 60px;
+}
+.bestchoices {
+    font-size: x-small;
+}
+.reviewss {
+    font-size: x-small;
+}
+.exclusives {
+    font-size: x-small;
+}
+.reservations {
+    font-size: x-small;
+}
+.points {
+    padding: 10px 40px;
+}
+.restauranteur {
+    display: flex;
+}
+.restauranteurs {
+    width: 550px;
+    height: 300px;
+    padding-right: 50px;
+}
+.register {
+    border: 1px solid rgb(239, 234, 234);
+    background-color: white;
+}
+.register button{
+    border: 1px solid rgb(102, 146, 76);
+    color:rgb(102, 146, 76);
+    padding: 10px;
+    background-color: white;
+}
+.footerblack {
+    display: flex;
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-left: 100px; 
+    margin-bottom: -30px;
+}
+.footergrey {
+    padding: 10px;
+    background-color: rgb(61, 64, 71);
+    color: white;
+    padding-left: 100px; 
+}
+.footernonsplit {
+    padding-right: 0px;
+}
+.footersplit {
+    padding: 0px 70px;
+}
+.footersplit a {
+    text-decoration: none;
+    color: white;
+}
+.appstore {
+    width: 150px;
+}
+.googleplay {
+    width: 150px;
+}
+.instagram {
+    width: 30px;
+}
+.facebook {
+    width: 30px;
+}
+.promotional {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Responsiveness starts here*/
+
+/* desktop responsiveness */
+@media screen and (min-width: 800px) {
+    body {
+        max-width: 100% !important;
+        float: none;
+        margin-bottom: 10px;
+    }
+}
